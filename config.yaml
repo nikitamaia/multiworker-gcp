@@ -1,0 +1,16 @@
+trainingInput:
+  scaleTier: CUSTOM
+  masterType: n1-standard-8
+  masterConfig:
+    acceleratorConfig:
+      count: 1
+      type: NVIDIA_TESLA_T4
+    imageUri: gcr.io/{path/to/image}:{tag}
+  useChiefInTfConfig: true
+  workerType: n1-standard-8
+  workerCount: 1
+  workerConfig:
+    acceleratorConfig:
+      count: 1
+      type: NVIDIA_TESLA_T4
+    imageUri: gcr.io/{path/to/image}:{tag}
