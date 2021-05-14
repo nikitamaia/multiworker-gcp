@@ -1,5 +1,5 @@
 # Specifies base image and tag
-FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-4
+FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-5
 WORKDIR /root
 
 # Copies the trainer code to the docker image.
